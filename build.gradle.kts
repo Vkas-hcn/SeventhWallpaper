@@ -1,13 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
     dependencies {
-        classpath("com.github.megatronking.stringfog:gradle-plugin:4.0.1")
-        classpath("com.github.megatronking.stringfog:xor:4.0.1")
+        classpath("com.github.megatronking.stringfog:gradle-plugin:5.1.0")
+        classpath("com.github.megatronking.stringfog:xor:5.0.0")
     }
 }
 plugins {
